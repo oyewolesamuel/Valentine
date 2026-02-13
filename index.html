@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Valentine Surprise 💖</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Floating Hearts -->
+  <div class="hearts"></div>
+
+  <!-- Intro Section -->
+  <div class="container" id="intro">
+    <h1 id="typing"></h1>
+    <input type="text" id="nameInput" placeholder="Enter your name 💕">
+    <button onclick="startLove()">Continue 💌</button>
+  </div>
+
+  <!-- Question Section -->
+  <div class="container hidden" id="question">
+    <h1 id="questionText"></h1>
+
+    <div class="buttons">
+      <button class="yes-btn" id="yesBtn" onclick="sayYes()">Yes ❤️</button>
+      <button class="no-btn" id="noBtn">No 💔</button>
+    </div>
+
+    <p id="message"></p>
+  </div>
+
+  <!-- Media Section -->
+  <div class="container hidden" id="mediaSection">
+    <h1>Our Beautiful Moments 💞</h1>
+    <div class="gallery">
+      <img src="https://picsum.photos/200?1">
+      <img src="https://picsum.photos/200?2">
+      <img src="https://picsum.photos/200?3">
+      <img src="https://picsum.photos/200?4">
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
